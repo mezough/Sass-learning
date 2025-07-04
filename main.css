@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact {
+  padding: 20px;
+}
+
+nav {
+  color: green;
+}
+
+.sidebar {
+  color: yellow;
+  background-color: orange;
+}
+
+@media (max-width:775px) {
+  .sidebar {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+// Import Partials
+@use "./Sass/layout/global_rules";
+@use "./Sass/pages/contact";
+@use "./Sass/variables/colors";
+
+$main_color: green;
+
+nav {
+  color: $main_color;
+}
+
+.sidebar {
+  color: colors.$main;
+  background-color: colors.$sub;
+}
+
+// Variables
+
+$max_mobile: "max-width:775px";
+
+@media ($max_mobile) {
+  .sidebar {
+    padding: 20px;
+  }
+}
